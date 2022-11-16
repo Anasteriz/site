@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      scr="https://kit.fontawesome.com/c4254e24a8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index2.html"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index2.html">Main Page</a></li>
+            <li><a href="">With Love</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Aestetic</h1>
+    </section>
+<!-----------My Works content--------->
+    <section class="my-works">
+
+      <div class="row">
+        <div class="my-col">
+             <h1>КАКИЕ МАТЕРИАЛЫ Я ИСПОЛЬЗУЮ</h1>
+             <p>За последние несколько лет — и тем более за последние несколько месяцев — я пришла к пониманию важности небольших ритуалов заботы о себе, которые заставляют меня чувствовать себя сосредоточенной и перезаряженой. Я упомянула здесь свои 10 любимых способов снять стресс и расслабиться , и сегодня я хотела поделиться 10 способами, которыми я балую себя в любое время в течение недели. Есть что-то оооочень терапевтическое в том, чтобы плюхнуться перед телевизором и красить ногти. Я использую essie в течение многих лет (мой любимый Marshmallow!), и я одержима их новой одноступенчатой системой Treat Love & Color. Он насыщен коллагеном, который делает ногти крепче и ярче (вау-у-у!) И выпускается в 4 самых красивых нейтральных оттенках.</p>
+            </div>
+        <div class="my-col">
+          <img src="@generalova_nls.jpeg">
+        </div>
+      </div>
+
+    </section>
+
+    <!-------- campus------->
+
+    
+    <section class="footer">
+      <h1>Больше информации</h1>
+      <p>Я активно веду свои социальные сети, где много чего интересного и можно посмотреть больше моих работ. Я всегда рада вашему визиту!</p>
+      <div class="icons">
+        <a href="" class="hero-btn"><i class="fa fa-whatsapp"></i>
+          <a href="https://instagram.com/mariya_nails_ashkelon?igshid=YmMyMTA2M2Y=" class="hero-btn"><i class="fa fa-instagram"></i>
+            <a href="https://www.facebook.com/profile.php?id=100004677347272" class="hero-btn"><i class="fa fa-facebook"></i>
+      </div>
+      <p>Made with <i class="fa fa-heart-o"></i> by Anastasia Shilo</p>
+    </section>
+
+    <!------JavaScript for Toggle Menu-------->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
